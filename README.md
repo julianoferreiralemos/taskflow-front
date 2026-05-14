@@ -1,16 +1,27 @@
-# React + Vite
+# TaskFlow Front-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Front-end do sistema TaskFlow.
 
-Currently, two official plugins are available:
+## Tecnologias
+- React
+- Vite
+- Vercel
+- GitHub Actions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Deploy
+Vercel:
+https://SEU-LINK.vercel.app
 
-## React Compiler
+## CI/CD
+Deploy automático realizado por tags SemVer.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Exemplo:
+v1.0.0
+v1.0.1
 
-## Expanding the ESLint configuration
+## Como rodar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
