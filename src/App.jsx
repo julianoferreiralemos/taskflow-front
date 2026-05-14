@@ -4,7 +4,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => {
-    fetch("URL_DA_API_RENDER/tasks")
+    fetch("https://taskflow-back-vof8.onrender.com/tasks")
       .then((response) => response.json())
       .then((data) => setTasks(data));
   }, []);
@@ -19,7 +19,7 @@ function App() {
         fontFamily: "Arial"
       }}
     >
-      <h1>TaskFlow</h1>
+      <h1>TaskFlow v1.0.1</h1>
 
       <div style={{ marginTop: "20px" }}>
         {tasks.map((task) => (
